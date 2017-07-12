@@ -1,0 +1,21 @@
+{
+    "name": "dongbufan/image-tool",
+    "description": "image tool",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "董不凡",
+            "email": "1025239819@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImageTools\\HttpUtil\\": "src/ImageEid/ImageUtil"
+        }
+    }
+}
